@@ -16,11 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".SignupActivity" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".ManageActivity" />
         <activity android:name=".AnalyticsActivity" />
+        <activity android:name=".QRScannerActivity"></activity>
     </application>
 
 </manifest>
